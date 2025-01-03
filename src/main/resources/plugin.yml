@@ -1,0 +1,18 @@
+name: InvisibleFrames
+version: '1.0'
+main: me.whish.invisibleFrames.InvisibleFrames
+api-version: '1.21'
+authors: [ Whish ]
+
+commands:
+  invisibleframes:
+    description: Перезагружает конфигурацию плагина
+    usage: /invisibleframes reload
+    permission: invisibleframes.admin
+    aliases:
+      - if
+
+permissions:
+  invisibleframes.admin:
+    description: Позволяет администратору перезагружать конфигурацию плагина
+    default: op
