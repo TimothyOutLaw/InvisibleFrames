@@ -9,7 +9,7 @@ class InvisibleFramesCommand(private val plugin: InvisibleFrames) : CommandExecu
 
     override fun onCommand(p0: CommandSender, p1: Command, p2: String, args: Array<out String>): Boolean {
 
-        if (args.isNotEmpty() && args[0].equals("reload", ignoreCase = true)) {
+        if (args.isNotEmpty() && args[0].equals("reload", ignoreCase = true) && args.size == 1) {
 
             if (!p0.hasPermission("invisibleframes.admin")) {
                 p0.sendMessage("§cУ вас недостаточно прав для выполнения этой команды!")

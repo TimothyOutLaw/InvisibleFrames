@@ -1,5 +1,5 @@
 name: InvisibleFrames
-version: '1.0'
+version: '1.1'
 main: me.whish.invisibleFrames.InvisibleFrames
 api-version: '1.21'
 authors: [ Whish ]
